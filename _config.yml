@@ -1,0 +1,11 @@
+title: "Monsoon"
+author: "Shi"
+description: "blog"
+url: "http://monsoon.cl"
+
+highlighter: rouge
+markdown: kramdown
+permalink: pretty
+
+paginate: 6
+paginate_path: "page:num"
