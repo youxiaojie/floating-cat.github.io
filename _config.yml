@@ -11,3 +11,4 @@ paginate_path: "page:num"
 
 sass:
   style: :compressed
+  sass_dir: _sass
