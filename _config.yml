@@ -3,7 +3,7 @@ author: "Shi"
 description: "blog"
 url: "http://monsoon.cl"
 
-highlighter: rouge
+highlighter: pygments
 permalink: pretty
 
 paginate: 6
