@@ -13,7 +13,7 @@ h1, h2, h3, h2, h5, h6
 .wrapper
   max-width: 45em
   margin: 0 auto
-  padding: .75em 1.5em
+  padding: 1.25em 1em
 
 /* header styles */
 .site-header
@@ -21,6 +21,7 @@ h1, h2, h3, h2, h5, h6
 
 .site-title
   font-size: 1.5em
+  line-height: 1em
 
 .site-nav
   float: right
@@ -28,8 +29,8 @@ h1, h2, h3, h2, h5, h6
     display: none
   .page-link
     color: $dark-gray
-    margin-left: 1.25em
-    line-height: 1.688em
+    margin-left: 2em
+    line-height: 1.5em
 
 /* index styles */
 .posts
@@ -41,7 +42,6 @@ h1, h2, h3, h2, h5, h6
   .post-date
     display: block
     color: $dark-gray
-    font-size: .875em
   .post-link
     font-size: 1.5em
 
@@ -52,14 +52,13 @@ h1, h2, h3, h2, h5, h6
     margin-bottom: 0
   .meta
     color: $dark-gray
-    font-size: .875em
 
 .post-content
   h2, h3, h2, h5, h6
     color: $pure-blue
   p
     text-indent: 2em
-    line-height: 1.5em
+    line-height: 1.6em
   blockquote
     opacity: .6
     font-style: italic
@@ -76,16 +75,16 @@ h1, h2, h3, h2, h5, h6
     padding: .063em
     border: .063em solid $very-light-gray
   pre
-    padding: .625em
+    padding: .75em
     code
       padding: 0
       border: none
 
 @media screen and (max-width: 48em)
   .wrapper
-    padding: .75em 1em
+    padding: 1em 1em
   .site-nav
-    top: .75em
+    top: 1em
     right: 1em
     z-index: 1
     position: fixed
@@ -95,12 +94,12 @@ h1, h2, h3, h2, h5, h6
       display: block
       svg
         float: right
-        width: 1.75em
-        height: 1.688em
+        width: 1.5em
+        height: 1.5em
     .trigger
       display: none
     &:hover .trigger
       display: block
     .page-link
       display: block
-      margin: 0 .625em
+      margin: 0 1em
