@@ -52,7 +52,7 @@ D:.
 
 拿 sounds 文件夹下的 english_voice_ayumi.fsb 文件来讲：**ayumi** 是女主角的名字；FSB 后缀的文件格式全称为 FMOD's sample bank format。我们可以通过 [FSB Extractor](http://aezay.site11.com/aezay/fsbextractor/) 这个软件来看下里面有什么。
 
-![english_voice_ayumi.fsb](/assets/x_blades_japanese_voices/english-voice-ayumi-fsb.png)
+![english_voice_ayumi.fsb](/assets/x_blades_japanese_voices/english-voice-ayumi-fsb.png){: width="1280" height="720"}
 
 一个 FSB 文件可以封装许多的音频文件，从截图中我们就可以看出。这个文件里有女主角的许多语音，如死亡和击打时的声音。
 
@@ -60,7 +60,7 @@ D:.
 
 那么为什么我在上面大篇幅介绍了这些替换文件呢？因为在实际的替换后，CG 的声音完全正常，而女主角的一些语音，如击打时发出的声音就特别的奇怪……通过我上文介绍的 FSB Extractor 这个软件对 sounds 文件夹下的文件与原本未替换前的备份文件进行对比，很明显 english_voice_ayumi.fsb 这个文件有古怪！
 
-![english_voice_ayumi.fsb PS3 VS PC](/assets/x_blades_japanese_voices/english-voice-ayumi-fsb-ps3-vs-pc.png){: #pic-english-voice-ayumi-fsb-ps3-vs-pc}
+![english_voice_ayumi.fsb PS3 VS PC](/assets/x_blades_japanese_voices/english-voice-ayumi-fsb-ps3-vs-pc.png){: #pic-english-voice-ayumi-fsb-ps3-vs-pc width="1270" height="720"}
 
 我将2个 FSB 文件里的音频文件进行了截图 （按音频文件名的顺序排列）。可以看到到左下角——替换文件 **Number of Entries 40**，原文件 **Number of Entries 36**，这说明了 PS3 日版该文件比原文件多了4个音频文件。原文件有1个 fall_to_death，而替换文件有5个 fall_to_death，并且原来的后缀 wav 是小写的，而替换的是大写的，这里也可以看出一点端倪来。
 
@@ -148,7 +148,7 @@ typedef struct {
 
 下面我们用文本编辑器打开 english_voice_ayumi_original.dat （以 十六进制视图 对文件进行加载）。
 
-![english_voice_ayumi_original.dat](/assets/x_blades_japanese_voices/english-voice-ayumi-original-dat.png)
+![english_voice_ayumi_original.dat](/assets/x_blades_japanese_voices/english-voice-ayumi-original-dat.png){: width="630" height="720"}
 
 可以说是非常幸运，01 的搜索结果不多——为39个。而 fsb 文件里有36个音频文件，所以这当中只有3个搜索结果是干扰项。我们可以从截图中看到差不多每个音频文件名后面都有这样的一个字段，那么我们只要耐性地比对下该音频声道字段在音频文件名后的大概位置就可以将另外3个干扰项给排除掉。最后值得注意的是，实际上PS3版的这个 fsb 有个别音频是单声道的，这几个不用改就可以了，将其他的 01 替换为 02 就大功告成了。
 
