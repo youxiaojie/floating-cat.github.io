@@ -7,6 +7,8 @@ permalink: /about/
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+  <img class="not-center" src="https://i.creativecommons.org/l/by/4.0/80x15.png" alt="知识共享许可协议"/>
+</a>
 
 本网站采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
