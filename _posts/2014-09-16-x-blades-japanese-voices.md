@@ -13,9 +13,9 @@ published: true
 
 前段时间，在 Steam 上买了 X-Blades，为了使用日语语音而鼓捣了好久——虽然玩后觉得这游戏是有点烂。
 
-UBISOFT (JP) 在日本专门发行了[日版](http://www.ubisoft.co.jp/xblades/)，而 Steam 版是由 TopWare Interactive 发行，包含了多国的语言 （不含日语）。虽然这游戏是跨平台游戏，但是相对于日版来说，PC 版比 PS3/Xbox 360 更难下载到，尤其是让我用 Share 、Perfect Dark 之类的软件完整地下完这游戏，应该很难吧 （姑且饶恕我提到盗版下载）。
+UBISOFT (JP) 在日本专门发行了[日版](http://www.ubisoft.co.jp/xblades/)，而 Steam 版是由 TopWare Interactive 发行，包含了多国的语言 （不含日语）。虽然这游戏是跨平台游戏，但是相对于日版来说，PC 版比 PS3/Xbox 360 更难下载到，尤其是让我用 Share 、Perfect Dark 之类的软件完整地下完这游戏，应该很难吧 。
 
-所幸经过一番搜索，在 [3DM](http://bbs.3dmgame.com/thread-3034762-1-1.html) 上有人提取了 PS3 日版的语音。经过下载并解压后，可以看到里面有 sounds 和 video 这2个文件夹。我们只需要将 PC （这里及下文指代的PC版皆指代 Steam 版）上的这两个文件夹替换掉就行了。（为什么 PS3 版可以用于 PC 版呢？跨平台开发方便嘛，当然也有一些凑巧的成分在）
+所幸经过一番搜索，在 [3DM](http://bbs.3dmgame.com/thread-3034762-1-1.html) 上有人提取了 PS3 日版的语音。经过下载并解压后，可以看到里面有 sounds 和 video 这2个文件夹。我们只需要将 PC （这里及下文指代的 PC 版皆指代 Steam 版）上的这两个文件夹替换掉就行了。（为什么 PS3 版可以用于 PC 版呢？跨平台开发方便嘛，当然也有一些凑巧的成分在）
 
 {% highlight bat %}
 >tree /F
