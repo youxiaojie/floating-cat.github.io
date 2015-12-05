@@ -1,8 +1,8 @@
-title: "monsoon"
+title: &title "monsoon"
+name: *title
 author: "Shi"
-description: "blog"
+description: "Welcome to my blog"
 url: "http://monsoon.cl"
-atom_title: "Monsoon Blog Atom Feed"
 
 permalink: pretty
 
@@ -15,3 +15,4 @@ sass:
 
 gems:
   - jekyll-paginate
+  - jekyll-feed
