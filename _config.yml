@@ -3,6 +3,7 @@ name: *title
 author: "Shi"
 description: "Welcome to my blog"
 url: "http://monsoon.cl"
+baseurl: ""
 
 permalink: pretty
 
