@@ -1,6 +1,6 @@
 title: &title "monsoon"
 name: *title
-author: "Shi"
+author: "shi"
 description: "Welcome to my blog"
 url: "http://monsoon.cl"
 baseurl: ""
