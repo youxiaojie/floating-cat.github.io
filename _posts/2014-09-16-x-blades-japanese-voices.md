@@ -9,8 +9,6 @@ published: true
 
 > https://drive.google.com/file/d/0B3Ap9NYzzJSOWkxmUmQ3TjdFbE0/edit?usp=sharing
 
-> http://pan.baidu.com/s/1eQ5q9z0
-
 前段时间，在 Steam 上买了 X-Blades，为了使用日语语音而鼓捣了好久——虽然玩后觉得这游戏是有点烂。
 
 UBISOFT (JP) 在日本专门发行了[日版](http://www.ubisoft.co.jp/xblades/)，而 Steam 版是由 TopWare Interactive 发行，包含了多国的语言 （不含日语）。虽然这游戏是跨平台游戏，但是相对于日版来说，PC 版比 PS3/Xbox 360 更难下载到，尤其是让我用 Share 、Perfect Dark 之类的软件完整地下完这游戏，应该很难吧 。
@@ -50,7 +48,7 @@ D:.
        16_good_ending.english.audio.ogg
 {% endhighlight %}
 
-拿 sounds 文件夹下的 english_voice_ayumi.fsb 文件来讲：**ayumi** 是女主角的名字；FSB 后缀的文件格式全称为 FMOD's sample bank format。我们可以通过 [FSB Extractor](http://aezay.site11.com/aezay/fsbextractor/) 这个软件来看下里面有什么。
+拿 sounds 文件夹下的 english_voice_ayumi.fsb 文件来讲：**ayumi** 是女主角的名字；FSB 后缀的文件格式全称为 FMOD's sample bank format。我们可以通过 [FSB Extractor](http://aezay.dk/aezay/fsbextractor/) 这个软件来看下里面有什么。
 
 ![english_voice_ayumi.fsb](/assets/x_blades_japanese_voices/english-voice-ayumi-fsb.png){: width="1280" height="720"}
 
