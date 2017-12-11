@@ -14,7 +14,7 @@ sass:
   style: :compressed
   sass_dir: assets/stylesheets
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
